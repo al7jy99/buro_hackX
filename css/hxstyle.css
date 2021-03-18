@@ -1,0 +1,203 @@
+html,body{
+    
+    font-family: 'Almarai', sans-serif;
+    direction: rtl;
+}
+.bg-primary {
+  background-color: black !important;
+}
+
+.btn-light {
+    font-family: 'Almarai', sans-serif;
+  background-color: mediumslateblue !important;
+    
+  border-color: coral !important;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: rebeccapurple  !important;
+    border-color: rebeccapurple !important;
+      opacity: 50%;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem fade-out(orange, 0.5);
+  }
+}
+
+.btn-secondary {
+  background-color: rebeccapurple;
+  border-color: rebeccapurple;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: darken(darkorange, 10%) !important;
+    border-color: darken(darkorange, 10%) !important;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem fade-out(darkorange, 0.5);
+  }
+}
+
+
+.btn-xl {
+    
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+    background-color: rebeccapurple;
+  
+}
+
+.bg-black {
+  background-color: black !important;
+}
+
+.rounded-pill {
+  border-radius: 5rem;
+}
+
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background: linear-gradient(0deg, coral 30%,  darkorange 80%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  }
+
+.content-style{
+     font-family: 'Almarai', sans-serif;
+    text-align: right;
+}
+.content-style2{
+     font-family: 'Almarai', sans-serif;
+    text-align: center;
+}
+ .masthead-content {
+    z-index: 1;
+    position: relative;
+     font-size: 12px;
+     
+   }
+
+.titles{
+    color: orangered;
+}
+.sub-titles{
+    color: rebeccapurple;
+}
+.sub-cont{
+    color: coral;
+}
+
+  .bg-circle {
+    z-index: 0;
+    position: absolute;
+    border-radius: 100%;
+    background: darkorange;
+  }
+
+  .bg-circle-1 {
+    height: 90rem;
+    width: 900rem;
+    bottom: -55rem;
+    left: -55rem;
+       background: coral;
+  }
+
+ .bg-circle-2 {
+    height: 50rem;
+    width: 70rem;
+    top: -25rem;
+    right: -25rem;
+     opacity: 50%;
+    background: orange;
+  }
+
+  .bg-circle-3 {
+    height: 90rem;
+    width: 20rem;
+    bottom: -10rem;
+    right: 5%;
+    opacity: 70%;
+    background: coral;
+  }
+
+  .bg-circle-4 {
+    height: 30rem;
+    width: 30rem;
+    top: -5rem;
+    right: 35%;
+  }
+
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
+  }
+}
+
+/*
+ .masthead-content {
+
+   
+    }
+*/
+
+.navbar-custom {
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: fade-out(purple, 0.3);
+    background-color: rgb(147,112,219);
+    
+}
+.navbar-brand {
+    text-transform: lowercase;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    
+  }
+
+.navbar-toggler-icon{
+    
+    background-color: grey;
+}
+  .navbar-nav {
+    
+  }
+.nav-item {
+     
+    }
+ .nav-link {
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.1rem;
+      }
+/*
+// Variables
+
+// Restated Bootstrap Variables
+
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+
+$primary: #9400D3 !default;
+$secondary: #ff6a00 !default;
+*/
